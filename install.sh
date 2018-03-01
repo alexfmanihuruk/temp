@@ -21,6 +21,12 @@ ruby()
    
     apt-get install -y ruby
     apt install -y ruby-bundler
+    apt-get install ruby-all-dev
+    sudo apt-get install ruby2.3-dev
+    sudo apt install gcc
+    apt install make
+    apt install phpunit
+    
 }
 
 nginx()
